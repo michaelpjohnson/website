@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/michaelpjohnson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://michaelpjohnson.com
+  * I am michaelpjohnson (https://keybase.io/michaelpjohnson) on keybase.
+  * I have a public key with fingerprint 4F43 EFDA 336C B469 B011  A74B 2BC6 0E45 1D9A 36B4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205da40ab55dd4b5652623fc42834a201468039d233c238c1673fe7b4bef9637f60a",
+      "fingerprint": "4f43efda336cb469b011a74b2bc60e451d9a36b4",
+      "host": "keybase.io",
+      "key_id": "2bc60e451d9a36b4",
+      "kid": "01019e1522a33e029e38802d1c91383d7d2a4c43c1a97916bb3528f86b58e93f04af0a",
+      "uid": "b3697d1510b85d150cd52fa032ab7a19",
+      "username": "michaelpjohnson"
+    },
+    "service": {
+      "hostname": "michaelpjohnson.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1529273531,
+  "expire_in": 157680000,
+  "prev": "a76a866f1b41716d043a8643cf2317a551d4aa87dd545330017e996438e99969",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMN2AnicbZJtUBVVGMcvJIFXLjAk1Di+5AK3RF529+wrVGDBhMRI4hQSNHfO7p7l
+blzuXu69vIk2oSUwWgojSuBAYYBNDC8O8CEcCsGQFxknGiTH1GSQkjAVzZrU6Vwm
+v7lfnjm7/+f3/J//nmHTMwaj1+YfApLX1XM9XuODrYWGbPPl/jJC0pVSIq6MyEPL
+BdkU5HJb8jSFiCNIiiZZBTIklFhWURiJ5Viao4EqM7QAGEiTFMMJJBAVGgCZBoJM
+cTxQES8xElJFDvAqR0IiilA1ey5yOpya3Y2xjMoApCoQAE6WGE6USIqCPCPRksyR
+iGEpRYSAkxjcaNVdng5sToIuFKPp+B0+WJbtPUX/xDdJiYhiaRrPQCQtIiAIJK1Q
+skgBASi8QkNGZoBMQZEXKU6SAEsLqsBJrIBEoJIMVJd9Fy7jJMCJvEKxFCkJLK6k
+rLC0CklAQ4mHlOgRupDTDvMRVudrshUim+MD3Wp36XZiTxSBPxZpMvLk61no6cIY
+Wc/HJIdTd+uybsMCq9vtcMV5AO5Sh6ejGEmW/1kWSbMrOFXcUYScLg0PiqOwUnZr
+HjjeXaR5wAIqikAlDs2JLJpHwfL4f+HHMwcVYSTkOShwnEpJDMVTnEIyAJ9xNCoN
+KB6yOFwGQoFXFJZhASBJikeiiAU4KFw9u7tQgV3HbAb7hLmY6dJy7dBd6ETEnjOD
+OSsMXkbDsz7enutmMK4MenIJa1YFGUZajvhuhdctSdcfNTQE1N5LF31ej53saKnY
+fUKvHpifWZgazmwrr4LO1RPfvmwzhNT961N660xYRm/xNmJHeLQlNTiAcQ2NsAuv
+ZvcfTdvyW/rOuq/Cp5qIwd5/zJ3frVmc60ouWbvrx8MRmZv7m31Dz57I2nildWC9
+PFvw4o72UPFeeP9Gv7XvgrB3vq/eVxx1SLjqTU50saNfJN69H3P60eVu882qruC9
+LmfT7rqchqykCyvWG/c/D0amItthZ8mCv7Ezy3iqOmxxa0rgrx0zlc3pKdr2BHJ1
+RmzN/s/Pjf0BEoM6juT1nP+ru20qLmau+71VL/Ubmvw7Z355ELPu9ERaw4HjzuYy
+86Uw7Xbjw6H2nJ/32Q4GR5yLrq4JdSR9+jD/xuj83rcWx++YmkJr+ipLIy6m3tR9
+21YOz149Vjm9qbzgwPu3TQ+2X0ptfyEt/pOPlrIv3kr+evCV2lNDESmL89tC7rY0
+2BqOz/cU0ETKrj/L3ywfe67D5BdTV5GZ/2G87WRvo/lCYHxyvHW0Y2nncG3rXKVy
+qDm2PnjucUT946Mz6RnTFUNVkKlL/ilnZCHq2rWlDZOpfWs+C+9KmDZNBExvKB5I
+KLxyZ7Yv0T8qsqsxd8v8gqnm4Md+f7sjxzLfHj9rvbGp/DU/Rfk9JPCb+2ZfacZr
+8stmf29zzmHtWHTjG+eX4k6Oq/8BLq/ARg==
+=rbZe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/michaelpjohnson
+
+==================================================================
+
