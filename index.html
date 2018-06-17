@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="resume.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="michael-p.-johnson">Michael P. Johnson</h1>
+<p>New York, NY michael@michaelpjohnson.com</p>
+<h2 id="director-of-site-reliability-engineering">Director of Site Reliability Engineering</h2>
+<p>I am an IT expert with over 18 years of professional experience. My career began as a full-time developer then slowly transitioned into a full-time SysAdmin. This range of skills has given me a unique perspective on the DevOps philosophy and how it best fits within an organization.</p>
+<h2 id="my-next-move">My Next Move</h2>
+<p>I am looking for a small startup with a lot of interesting problems to solve. Ideally a company looking to bring their tech in-house and need an engineer to hit the ground running as their CTO.</p>
+<h2 id="management-style">Management Style</h2>
+<p>I am very task and deadline oriented. I do not manage people’s time, I look to make sure they are given the proper tasks that best fits their skills. I let them manage their own time. I also believe it is every senior level person’s responsiblity to lift up the junior and mid-level engineers so they make beome senior themselves.</p>
+<hr />
+<h2 id="technical-qualifications">Technical Qualifications</h2>
+<h3 id="technical-proficiency-currentdaily-use">Technical Proficiency (Current/Daily Use)</h3>
+<ul>
+<li>Docker/Kubernetes, Calico, Istio, AWS ECS/ECR</li>
+<li>Amazon Web Services
+<ul>
+<li>EC2, ECS, ELB, AutoScaling, VPC (peering, etc), RDS, Kinesis, DynamoDB, Redshift, ElastiCache, Route53, IAM, CloudFormation, CloudWatch, S3</li>
+</ul></li>
+<li>Go, Bash/Fish, Python</li>
+<li>Ubuntu, RHEL (CentOS, Oracle Linux), Arch Linux, OSX, Alpine</li>
+<li>Chef, Jenkins, Graphana, Prometheus, postgreSQL, mongoDB, github, NSQ, PostgreSQL, Rundeck</li>
+<li>Apache Spark</li>
+<li>nmap, Nessus, nikto/wikto, john, ossec, OWASP ZAP, Kali Linux, Metasploit</li>
+<li>PagerDuty, CircleCI, Consul, gRPC</li>
+</ul>
+<h3 id="technical-proficiency-previously-used">Technical Proficiency (Previously Used)</h3>
+<ul>
+<li>KVM, XEN, Vagrant/VirtualBox, VMWare/ESXi</li>
+<li>NewRelic, Sensu, PaperTrail, Fabio, Traefik</li>
+<li>Puppet, CFengine, Spacewalk, Fabric, Zookeeper/Exhibitor, Tomcat, Flume, influxDB, HAProxy, ActiveMQ, Storm, Zabbix</li>
+<li>GFS/GFS2, 3Par, Citrix Netscaler, DNS/bind, DynDNS, Cobbler,</li>
+<li>Nginx, MySQL, Storm, Sendmail/Postfix, collectd, Varnish, Apache HTTPD, LDAP, memcached, NFS, RADIUS, Shibboleth, F5 BigIP load balancer,</li>
+<li>Django, Drupal, Wordpress, Mooodle, Google Apps Admin</li>
+<li>Perl, PHP, C/C++, NodeJS, Ruby, Assembler</li>
+</ul>
+<h3 id="other">Other</h3>
+<p><em><a href="https://github.com/michaelpjohnson">Github Profile</a></em></p>
+<p><em><a href="https://www.linkedin.com/pub/michael-johnson/4/845/84b">LinkedIn Profile</a></em></p>
+<hr />
+<h2 id="experience">Experience</h2>
+<h3 id="hinge-app-new-york-ny"><a href="http://hinge.co">Hinge App</a> | New York, NY</h3>
+<h4 id="director-of-site-reliability-engineering-january-2018---present">Director of Site Reliability Engineering, January 2018 - Present</h4>
+<ul>
+<li>Coverted infrastructure and deployment pipeline to use Kubernetes.</li>
+<li>Metrics and monitoring are done with Prometheus, Graphana, and AWS Cloudwatch.</li>
+<li>Changed to an SRE once the developers</li>
+<li>Still code in golang</li>
+</ul>
+<h4 id="senior-devops-engineer-december-2015---december-2017">Senior DevOps Engineer, December 2015 - December 2017</h4>
+<ul>
+<li>Participated in the entire release life-cycle of the Hinge reboot. From the initial product inception to the first release and beyond.</li>
+<li>Docker Lead/SME: Brought in Docker to replace Chef/Ansible configuration. All developers now have a complete working environment they can spin up via Docker Compose. All Go-based applications are managed via AWS Container Serivce, while the Python based docker containers are managed via a home-grown solution I wrote.</li>
+<li>Created a fully automated deployment pipeline (<code>Commit</code>-&gt;<code>Test</code>-&gt;<code>CI</code>-&gt;<code>Deployment</code>). Developers can tag branches which will create docker containers and deployment them safely to production. Built in Go using Consul at first, then transitioned to Amazon ECS, then finally to Kubernetes where it is now.</li>
+<li>Created Microservice Architecture: Application config and service discovery is managed through Consul, HTTP traffic is routed through Fabio and gRPC traffic is handled via Consul DNS. Service communicate via protocol buffers/gRPC or HTTP/JSON.</li>
+<li>Created performance-critical portions of the architecture with Go based mircoservices. Reduced TCO further by replacing Python services with Go.</li>
+<li>Created the entire backend in one month for the Hinge Matchmaker stand-alone product.</li>
+<li>AWS Lead/SME: Replaced entire Heroku infrastructure with a complete AWS solution. Implemented and manages over 15 separate AWS solutions from EC2 to RDS to CloudFront. All managed via CloudFormation.</li>
+<li>Brought Google’s Deep Learning tool TensorFlow into the recommendation service. Machine Learning is done live and recommendations are served in real-time.</li>
+<li>In-House Penetration Tester and Security SME</li>
+</ul>
+<h3 id="rakuten-marketing-new-york-ny-2012-2015"><a href="http://marketing.rakuten.com">Rakuten Marketing</a> | New York, NY 2012-2015</h3>
+<h4 id="senior-devops-engineer-september-2014---december-2015">Senior DevOps Engineer, September 2014 - December 2015</h4>
+<h4 id="senior-systems-administrator-august-2012---september-2014">Senior Systems Administrator, August 2012 - September 2014</h4>
+<h5 id="senior-devops-engineer">Senior DevOps Engineer</h5>
+<ul>
+<li>Built and maintained the Enterprise Chef servers and 300+ nodes attached to them.</li>
+<li>Responsible for team’s security and penetration testing.</li>
+<li>Built Spacewalk in-house and brought all systems under management. Security patches and testing are done in hours not days.</li>
+<li>Implemented and evangelized DevOps principles across many areas of the organization. As a result, all servers are managed with Chef (Berkshelf, kitchen, foodcritic, etc.). Development life-cycle now begins in Kitchen/Vagrant vs. a dedicated dev environment in the data center. Deployment is done via Python/Fabric scripts. They are repeatable and tested via Jenkins.</li>
+<li>Eliminated legacy in-house RPMs by converting all functionality to Chef cookbooks.</li>
+<li>Created data pipeline from production systems to backend processors. The flows were built with Flume/Kafka or ActiveMQ where needed.</li>
+<li>Key decision-maker in moving customer facing applications into AWS and closer to the end-user via DNS geolocation. Globally scaled systems to handle over 70M actions per day</li>
+<li>Upgraded old perl CGI applications to golang as well as deprecated all Oracle databases in favor of PostgreSQL</li>
+<li>Re-engineered the real-time monitoring system in influxDB/Graphana.</li>
+</ul>
+<h5 id="senior-systems-administrator">Senior Systems Administrator</h5>
+<ul>
+<li>Maintained and extended an in-house and custom-built RPM repository to manage legacy code. Implemented newer code deployments and server provisioning with Chef. Both in-house and in AWS</li>
+<li>Provided Tier 1 support for the organization. This covered a mixture of physical and virtualized servers running mostly RHEL clones (Oracle Linux and CentOS).</li>
+<li>A part of the on-call rotation which monitored and supported 1000+ Xen/KVM/AWS/Physical instances across three collocated data centers and three AWS regions</li>
+<li>Overhauled a key transaction system to respond in under 50ms, down from 2s which the legacy systems were built to handle initially.</li>
+<li>In charge of upgrading older Xen-based servers to KVM with zero downtime for associated services.</li>
+<li>Survived superstorm Sandy with a tethered Android phone and laptop, all customer-facing systems remained up throughout the crisis.</li>
+<li>Key Ops person in the migration of data centers - shut down of one in NY and brought up another LV.</li>
+</ul>
+<h3 id="new-york-public-radio-new-york-ny"><a href="http://wnyc.org">New York Public Radio</a> | New York, NY</h3>
+<h4 id="senior-systems-administrator-july-2011---august-2012">Senior Systems Administrator, July 2011 - August 2012</h4>
+<ul>
+<li>Responsible for all Linux administration, both on-site and in the cloud (AWS &amp; Rackspace/Slicehost). Server management via Puppet and Fabric. Backup administration with rdiff-backup and various in-house scripts for database backups.</li>
+<li>In charge of researching and recommending efficiency, policy and process improvements to all aspects of the IT Department. Wrote policy for desktop, server and mobile security.</li>
+<li>Oversaw code deployment to production systems via Python/Fabric. Also supported developers working in the testing/demo environment.</li>
+<li>On call 24x7x365 for all websites and Linux servers.</li>
+<li>Migrated key e-commerce systems from an unstable hosting provider to a load balanced and redundant solution in Amazon’s cloud (AWS).</li>
+<li>Updated company from PCI DSS v1.2 to PCI DSS v2.0. Oversaw monthly vulnerability scans. Placed in charge of company’s overall PCI compliance</li>
+<li>Completed SANS Security 560: Network Penetration Testing and Ethical Hacking course. A detailed and rigorous course on professional and ethical penetration testing.</li>
+<li>Performed penetration test of web services using current modern attack vectors and methodologies. Reported findings to CTO and VPs.</li>
+</ul>
+<h3 id="pace-university-new-york-ny"><a href="http://www.pace.edu">Pace University</a> | New York, NY</h3>
+<h4 id="senior-systems-administrator-may-2010---july-2011">Senior Systems Administrator, May 2010 - July 2011</h4>
+<p>Senior Linux admin (RHCE), on-call, physical server support (250+), disaster recovery site manager, created a 50 node compute cluster from blades. <em>Tech used daily</em>: AWS, Python, PHP, VMWare, LDAP, Shibboleth, C/C++ (openMP,openMPI), Drupal</p>
+<h3 id="wagner-college-staten-island-ny"><a href="http://www.wagner.edu">Wagner College</a> | Staten Island, NY</h3>
+<h4 id="director-web-and-systems-development-november-2004---may-2010">Director, Web and Systems Development November 2004 - May 2010</h4>
+<p>Lead developer and systems administrator, two direct reports, physical server support, taught staff Drupal, migrated campus to Google Apps, deployed wireless network <em>Tech used daily</em>: Perl, Python, PHP, Drupal, Moodle, LDAP, SQL, Shibboleth, Tomcat,</p>
+<h2 id="additional-it-experience">Additional IT Experience</h2>
+<h3 id="early-it-career">Early IT career</h3>
+<ul>
+<li>Law School Admission Counsel - Newtown, PA Operations/Support Services 2002-2004</li>
+<li>Pangolin Web Services - Hawthorne, NJ Programmer/Systems Administrator 2000 to 2002</li>
+<li>Bear Stearns - Whippany, NJ Intern, QA/Programmer 1999</li>
+</ul>
+<hr />
+<h2 id="education-and-certifications">Education and Certifications</h2>
+<h3 id="bachelor-of-science-in-computer-science-minor-applied-mathematics">Bachelor of Science in Computer Science, Minor: Applied Mathematics</h3>
+<h4 id="new-jersey-institute-of-technology-2003"><a href="http://www.njit.edu">New Jersey Institute of Technology</a> 2003</h4>
+<ul>
+<li>RED HAT CERTIFIED ENGINEER RHEL4-5 #804006055320640</li>
+<li>SANS560 Network Security and Ethical Hacking</li>
+<li>Fashion Hackathon</li>
+<li>Active member of the <a href="http://lopsa.org">League of Professional System Administrators</a></li>
+<li><a href="https://www.owasp.org">OWASP NYC Chapter Member</a></li>
+</ul>
+</body>
+</html>
